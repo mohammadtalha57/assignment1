@@ -29,6 +29,11 @@ p{
     color: dimgray;
     font-size: 20px;
 }
+header{
+    float: right;
+    margin-right: 150px;
+    padding: 40px 20px;
+}
 ul li{
     list-style: none;
     display: inline-block;  
@@ -40,17 +45,11 @@ ul li a{
     color: #3C3C3C;
     padding: 0 20px;
 }
-header{
-    float: right;
-    margin-right: 150px;
-    padding: 20px;
+.welcome{
+    padding-top: 10%;
 }
 .name-highlight{
     color: salmon;
-}
-.name h1{
-    margin-bottom: 0;
-    margin-block-end: 0.0em;
 }
 span{
     display: inline-block;
@@ -67,9 +66,6 @@ section{
 }
 .half-width img{
     width: 100%;
-}
-.welcome{
-    padding-top: 5%;
 }
 .link-button{
     text-decoration: none;
