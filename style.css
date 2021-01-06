@@ -3,6 +3,26 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-size: 70px;
+    color: midnightblue;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+h2{
+    font-size: 40px;
+    color: midnightblue;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+h4{
+    font-size: 40px;
+    color: midnightblue;
+}
+p{
+    color: dimgray;
+    font-size: 20px;
+}
 ul li{
     list-style: none;
     display: inline-block;  
@@ -18,13 +38,6 @@ header{
     float: right;
     margin-right: 150px;
     padding: 20px;
-}
-h1{
-    font-size: 50px;
-    color: midnightblue;
-}
-h2{
-    font-size: 40px;
 }
 .name-highlight{
     color: salmon;
@@ -50,7 +63,7 @@ section{
     width: 100%;
 }
 .welcome{
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .link-button{
     text-decoration: none;
@@ -63,13 +76,13 @@ section{
 .latest{
     color: tomato;
 }
-.projects-headline{
+.projects-area{
     background-color: #E5E5E5;
     padding-bottom: 300px;
 }
 .latest-work{
     text-align: center;
-    padding: 150px 0px 10px 0px;
+    padding: 100px 0px 10px 0px;
 }
 .projects{
     width: 20%;
@@ -78,13 +91,13 @@ section{
     background-color: white;
     border-radius: 15px;
     padding: 15px;
-    box-shadow: .2px .2px 10px grey;
+    box-shadow: 2px 2px 10px #80808054;
 }
 .projects img{
     width: 100%;
 }
 #gym{
-    margin-left: 280px;
+    margin-left: 300px;
 }
 .inqiury{
     margin-top: 100px;
@@ -99,12 +112,12 @@ section{
 .contact img{
     width: 50%;
 }
-.text{
+.work{
     position: relative;
     top: -170px;
-    left: -12%;
+    left: -14%;
 }
-.text h2{
+.work h2{
     color: white;
 }
 .chat{
